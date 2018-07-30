@@ -111,7 +111,7 @@ header{
 	opacity: .7;
 	margin:0 auto;
 	width: 100%;
-	height:30px;
+	height:auto;
 }
  .tabs{
  	text-align: center;
@@ -130,8 +130,7 @@ header{
 .tabs li a{
 	color:#fff;
 	text-decoration: none;
-	padding:0px 5px;
-	padding-bottom: 10px;
+	padding:5px 0;
 	font-size: 2vw;
 }
 
@@ -305,7 +304,7 @@ ul.content_buttons{
 
 .product_info h3{
 	margin:0;
-	font-size:30px;
+	font-size:25px;
 	font-weight: 200;
 }
 
@@ -422,17 +421,6 @@ ul.content_buttons{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 #product_resources{
 	text-align: center;
 	margin:40px 0;
@@ -499,7 +487,7 @@ ul.content_buttons{
 
 .links li{
 	display:inline;
-	padding:30px 15px;
+	padding:30px 8px;
 	border-left: .5px solid #f2f2f5;
 }
 
@@ -551,7 +539,7 @@ ul.content_buttons{
 }
 
 .newsletter input[type='submit']{
-		background-color: #50b4b6;
+	background-color: #50b4b6;
 	color:#fff;
 	border:none;
 	padding:5px 10px;
@@ -567,13 +555,16 @@ ul.content_buttons{
 }
 
 .social_media{
-	/*background-color: red;*/
 	margin:0;
+}
+
+.social_media ul{
+	padding:0;
 }
 
 .social_media li{
 	display: inline-block;
-	margin:10px 8px;
+	margin:10px 4px;
 }
 
 
@@ -671,6 +662,10 @@ nav a:hover{
 		padding:0 30px;
 		border-left: 2px solid #f2f2f5;
 	}
+
+	.showcase_content{
+		padding:200px 0;
+	}
 }
 
 
@@ -739,9 +734,6 @@ nav li{
 
 }
 
-
-
-
 @media(min-width: 1250px){
 	.container{
 		width:100%;
@@ -784,6 +776,10 @@ nav ul{
 nav li{
 	padding: 10px 60px;
 }
+
+	.showcase_content{
+		padding:400px 0;
+	}
 
 
 
@@ -833,10 +829,9 @@ nav li{
 .abt_img_card{
 	display: inline-block;
 	padding:0;
-	margin:0 20px;
 	text-align: center;
 	height:400px;
-	width: 400px;
+	width: 300px;
 }
 
 
@@ -1094,7 +1089,7 @@ textarea{
 .product_summary{
 	border-top:1px solid #50b4b6;
 	bottom:1px;
-	height: 10%;
+	height: auto;
 	width: 100%;
 	display:none;
 	position:absolute;
@@ -1106,11 +1101,6 @@ textarea{
 .product_summary p{
 	color:#fff;
 	padding:0 10px;
-}
-
-
-.primary .product_summary p{
-	margin-top: 10px;
 }
 
 

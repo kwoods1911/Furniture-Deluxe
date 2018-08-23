@@ -12,6 +12,9 @@ header{
 	margin-bottom: 15px;
 }
 
+img{
+	vertical-align: middle;
+}
 
 .dropdown_content{
 	border-top:1px solid #fff;
@@ -359,7 +362,7 @@ ul.content_buttons{
 }
 
 .idea_card{
-	height:600px;
+	height:auto;
 	width:100%;
 	text-align: center;
 	margin:100px 0;

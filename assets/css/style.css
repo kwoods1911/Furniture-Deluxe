@@ -746,6 +746,10 @@ nav li{
 }
 
 @media(min-width: 1250px){
+
+	.showcase_content a{
+		font-size:200%;
+	}
 	.container{
 		width:100%;
 		display: grid;

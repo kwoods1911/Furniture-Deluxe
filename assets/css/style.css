@@ -3,6 +3,7 @@ body{
 	margin:0;
 	color:#6e6f80;
 	font-family: 'HelveticaNue',Helvetica,Arial,sans-serif;
+	font-size:16px;
 }
 
 header{
@@ -48,7 +49,7 @@ img{
 	list-style: none;
 	padding: 12px 16px;
 	width:auto;
-	font-size:18px;
+	font-size:1em;
 	border-bottom:1px solid #42424F;
 }
 
@@ -177,6 +178,7 @@ img{
 	background-color: #50b4b6;
 	border:none;
 	padding:5px 15px;
+	margin-top:10px;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #46a5a7;
 }
@@ -188,9 +190,9 @@ img{
 
 
 .showcase_content a{
+		padding:0;
 		color:#fff;
-		font-size: 2vw;
-
+		font-size: 90%;
 }
 
 .img_container{
@@ -226,7 +228,7 @@ img.img_container{
 .container_content h1{
 	font-weight: 100;
 	color:#42424F;
-	font-size: 30px;
+	font-size: 1.5em;
 }
 
 .container_content h1, ul{
@@ -258,7 +260,6 @@ ul.content_buttons{
 	color:#fff;
 	border:none;
 	padding:5px 10px;
-	/*font-size: 18px;*/
 	font-size: 2vw;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #46a5a7;
@@ -277,26 +278,26 @@ ul.content_buttons{
 
 .container{
 	margin:0 auto;
-	width:80%;
+	width:90%;
 	text-align: center;
 }
 
 .product_card{
 	height:450px;
-	width: 80%;
-	/*background-color: blue;*/
+	width: 100%;
+	max-width: 350px;
 	text-align: center;
-	/*border:1px solid #333;*/
-	margin:100px auto;
+	margin:35px auto;
 }
 
 
 .product_img img{
-	height:300px;
+	height:250px;
 	width: 100%;
 }
 
 .product_info {
+	height:150px;
 	padding:10px 20px;
 	text-align: left;
 	background-color: #f2f2f5;
@@ -357,7 +358,7 @@ ul.content_buttons{
 
 .idea_container{
 	margin:0 auto;
-	width:98%;
+	width:90%;
 
 }
 
@@ -445,7 +446,7 @@ ul.content_buttons{
 	/*padding-left: 25px;*/
 	margin:20px 0;
 	border-top:1px solid #f2f2f5;
-	font-size:25px;
+	font-size:1em;
 }
 
 .list a{
@@ -488,7 +489,6 @@ ul.content_buttons{
 .links li{
 	display:inline;
 	padding:30px 8px;
-	border-left: .5px solid #f2f2f5;
 }
 
 .links a:hover{
@@ -555,10 +555,11 @@ ul.content_buttons{
 }
 
 .social_media{
-	margin:0;
+	margin:0 auto;
 }
 
 .social_media ul{
+	text-align: center;
 	padding:0;
 	margin:0 auto;
 }
@@ -990,15 +991,12 @@ textarea{
 }
 
 .button{
-	/*float:left;*/
 	color:#fff;
 	width:25%;
 	margin: 10px 10px;
 	border:none;
 	border-bottom:2px solid #46a5a7;
 	background-color: #50b4b6;
-	height:3em;
-	font-size: 1em;
 }
 
 .button:hover{
@@ -1006,9 +1004,7 @@ textarea{
 	transition: .3s;
 }
 
-.btn-wrap{
-	/*display:inline-block;*/
-}
+
 
 
 .contact_info{

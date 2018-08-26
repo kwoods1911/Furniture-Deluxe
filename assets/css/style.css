@@ -151,7 +151,12 @@ img{
 	text-align: center;
 }
 
-
+.overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(26,58,59,0.3);
+}
 
 .showcase_content{
 	color:#fff;
@@ -753,8 +758,8 @@ nav li{
 	.container{
 		width:100%;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-		column-gap:.5em;
+		grid-template-columns: repeat(4,1fr);
+		column-gap:.1em;
 	}
 	.product_img img{
 		width:100%;
@@ -792,19 +797,14 @@ nav li{
 	padding: 10px 60px;
 }
 
-	.showcase_content{
-		padding:400px 0;
-	}
-
+	
 
 
 }
 
 
 @media(min-width: 2560px){
-	.showcase_content{
-		padding:550px 0;
-	}
+	
 
 	#showcase_footer h1{
 		font-size:50px;
@@ -861,16 +861,17 @@ nav li{
 .abt_img_card{
 	display: inline-block;
 	padding:0;
-	margin:0 auto;
+	margin:10px auto;
 	text-align: center;
-	height:400px;
+	height:auto;
 	width: 300px;
 }
 
 
 .abt_img img{
-	height: 100%;
+	height: 200px;
 	width: 100%;
+	min-width: 200px;
 }
 
 .abt_img_content{
@@ -925,7 +926,7 @@ nav li{
 
 
 
-/*CONTANT FORM CSS CODE*/
+/*CONTACT FORM CSS CODE*/
 
 
 #first_header{
@@ -996,8 +997,11 @@ textarea{
 
 .button{
 	color:#fff;
+	height:40px;
+	font-size:1em;
 	width:25%;
 	margin: 10px 10px;
+	/*padding:10px;*/
 	border:none;
 	border-bottom:2px solid #46a5a7;
 	background-color: #50b4b6;
